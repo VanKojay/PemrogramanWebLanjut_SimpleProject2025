@@ -1,0 +1,21 @@
+/* Lebar sidebar */
+#sidebarMenu {
+  width: 300px !important;
+}
+
+/* Saat layar besar, pastikan mainContent punya margin kiri */
+@media (min-width: 768px) {
+  #mainContent {
+    margin-left: 300px; /* sesuai dengan lebar sidebar */
+  }
+}
+
+/* Tambahan untuk padding di konten */
+.main-content {
+  padding: 1.5rem;
+}
+
+/* Pastikan DataTable full width */
+table.dataTable {
+  width: 100% !important;
+}
